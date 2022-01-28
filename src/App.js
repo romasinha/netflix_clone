@@ -2,14 +2,14 @@
 import './App.css';
 import requests  from './requests';
 import Banner from './Banner';
-import Navbar from './Navbar';
+
 import Row from './Row';
+import Nav from './Nav'
 
 function App() {
   return (
     <div className="app">
-      <h2>Netflix Clone</h2>
-      <Navbar/>
+      <Nav/>
       <Banner/>
 
       <Row 
