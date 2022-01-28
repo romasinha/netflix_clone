@@ -7,7 +7,7 @@ import Row from './Row';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <h2>Netflix Clone</h2>
       <Navbar/>
       <Banner/>

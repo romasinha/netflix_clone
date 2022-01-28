@@ -13,7 +13,10 @@ function Row({title, fetchUrl, isLargeRow}) {
 
         //we write an async await func
         async function fetchData(){
-            const request = await axios.get(fetchUrl); //gets the entire url
+            
+            const request = await axios.get(fetchUrl); 
+            //gets the entire url
+    
             setMovies(request.data.results);
             return request;
         }
